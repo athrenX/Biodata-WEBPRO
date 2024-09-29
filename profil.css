@@ -1,0 +1,114 @@
+body {
+    font-family: T, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .c {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid rgba(230, 230, 239, 0.867);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* styles.css */
+  .navbar{
+    background-color: rgb(149, 255, 255);
+    padding: 10px;
+    text-align:center;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+    color : white;
+}
+
+.penutup {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+  border: 1px solid #ccc; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.penutup center {
+  text-align: center;
+}
+
+.penutup p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.penutup form {
+  margin-top: 20px;
+}
+
+.penutup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.penutup input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.penutup input[type="submit"] {
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.penutup input[type="submit"]:hover {
+  background-color: #3e8e41; /* darker green background on hover */
+}
+
+.penutup a {
+  text-decoration: none;
+  color: #337ab7; /* blue text */
+}
+
+.penutup a:hove {
+  color : #23527c; /* darkerr { blue text on hover */
+}

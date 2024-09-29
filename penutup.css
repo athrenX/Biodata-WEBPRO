@@ -1,0 +1,8 @@
+.thanks {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+  border: 1px solid #ccc; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

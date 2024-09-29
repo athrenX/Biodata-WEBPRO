@@ -1,0 +1,64 @@
+.navbar{
+  background-color: rgb(149, 255, 255);
+  padding: 10px;
+  text-align:center;
+}
+
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+  color : white;
+}
+.konten img {
+    border-radius: 45%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 20px auto;
+  }
+
+.konten{
+    text-align: left;
+    margin-top: 20px;
+}
+.konten table {
+
+    border-collapse: collapse;
+
+    width: 80%;
+
+    margin: 20px auto;
+
+  }
+
+  .konten th, .konten td {
+
+    border: 1px solid #ddd;
+
+    padding: 10px;
+
+    text-align: left;
+
+  }
+
+  .konten th {
+
+    background-color: #f0f0f0;
+
+  }
